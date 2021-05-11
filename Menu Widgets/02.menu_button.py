@@ -6,7 +6,7 @@ menubutton=Menubutton(root,text="file",relief=FLAT)
 menubutton.grid()
 menubutton.menu=Menu(menubutton)
 menubutton["menu"]=menubutton.menu
-menubutton.menu.add_checkbutton(label="open",variable=IntVar())
+menubutton.menu.add_checkbutton(label="Open",variable=IntVar())
 menubutton.menu.add_checkbutton(label="Close",variable=IntVar())
 menubutton.menu.add_checkbutton(label="New",variable=IntVar())
 
