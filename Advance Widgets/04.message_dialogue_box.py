@@ -5,5 +5,5 @@ root=tkinter.Tk()
 root.withdraw()
 
 messagebox.showerror("Error","Error Message")
-messagebox.showwarning("Warning","Warning Message")
+messagebox.showwarning("warning","warning Message")
 messagebox.showwarning("Information","Informative message")
